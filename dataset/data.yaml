@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cube']
+
+roboflow:
+  workspace: utk-machine-learning
+  project: cannycube
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/utk-machine-learning/cannycube/dataset/2
