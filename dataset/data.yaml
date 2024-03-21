@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['cube']
+nc: 2
+names: ['cell', 'cube']
 
 roboflow:
   workspace: utk-machine-learning
   project: cannycube
-  version: 2
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/utk-machine-learning/cannycube/dataset/2
+  url: https://universe.roboflow.com/utk-machine-learning/cannycube/dataset/3
